@@ -14,8 +14,13 @@
       <img src="img/logotype-mobile.svg" width="226" height="30" alt="Barbershop Borodinsky">
     </a>
     <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">
+          Open the menu
+        </span>
+      </button>
       <ul class="main-nav__list site-list">
-        <li class="site-list__item">
+        <li class="site-list__item site-list__item--active">
           <a href="">
             Главная
           </a>
@@ -41,8 +46,34 @@
           </a>
         </li>
       </ul>
+      <ul class="main-nav__list user-list">
+        <li class="user-list__item">
+          <a href="login.html" class="user-list__login js-login">
+            Войти
+          </a>
+        </li>
+      </ul>
     </nav>
   </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">Барбершоп "Бородинский" - истинно мужская классика</h1>
+  </main>
+  <section class="stats">
+    <header class="stats__header">
+      <h2 class="visually-hidden">
+        Статистика барбершопа
+      </h2>
+      <p class="stats-slogan">
+        Стрижка у нас <br>
+        это выгодно
+      </p>
+      <p class="stats-intro">
+        Мужская стрижка требует <br>
+        точнрого подхлда <br>
+        Обратимся к статистике.
+      </p>
+    </header>
+  </section>
 </body>
 
 </html>
